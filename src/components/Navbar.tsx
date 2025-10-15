@@ -58,7 +58,7 @@ export default function Navbar({ cartItemCount }: NavbarProps) {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <Package className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold text-foreground">PataSpace</span>
+            <span className="text-2xl font-bold text-foreground">Engineershop</span>
           </Link>
 
           <div className="flex items-center gap-4">

@@ -41,7 +41,7 @@ export default function ProductCard({ product, onAddToCart }: ProductCardProps) 
         </p>
         <div className="flex items-baseline gap-2">
           <span className="text-2xl font-bold text-primary">
-            ${product.price.toFixed(2)}
+            Ksh{product.price.toFixed(2)}
           </span>
           {product.stock <= 5 && product.stock > 0 && (
             <span className="text-xs text-accent font-medium">
