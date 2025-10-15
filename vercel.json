@@ -2,19 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "next.config.js",
-      "use": "@vercel/next"
+      "src": "package.json",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/index.html"
     }
   ]
-  
 }
